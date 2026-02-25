@@ -1,0 +1,15 @@
+Entero base, altura, area, perimetro
+
+Inicio
+  Escriba "Ingrese la base del rectángulo: "
+  Lea base
+  
+  Escriba "Ingrese la altura del rectángulo: "
+  Lea altura
+  
+  Area <- base * altura
+  Perimetro <- 2 * (base + altura)
+  
+  Escriba "El área del rectángulo es: ", area
+  Escriba "El perímetro del rectángulo es: ", perimetro
+Fin

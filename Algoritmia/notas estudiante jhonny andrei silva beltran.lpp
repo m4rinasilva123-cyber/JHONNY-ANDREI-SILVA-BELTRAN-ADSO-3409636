@@ -1,0 +1,21 @@
+Cadena nombre[50]
+Real n1, n2, n3, prom
+
+Inicio
+  Escriba "Ingrese el nombre del estudiante: "
+  Lea nombre
+  
+  Escriba "Ingrese nota 1: "
+  Lea n1
+  
+  Escriba "Ingrese nota 2: "
+  Lea n2
+  
+  Escriba "Ingrese nota 3: "
+  Lea n3
+  
+  prom <- (n1 + n2 + n3) / 3
+  
+  Escriba "Estudiante: ", nombre
+  Escriba "Promedio: ", prom
+Fin

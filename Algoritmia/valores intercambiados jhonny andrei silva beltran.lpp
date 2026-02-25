@@ -1,0 +1,13 @@
+Real a, b, aux
+Inicio
+   Escriba "Ingrese el valor de a: "
+   Lea a
+   Escriba "Ingrese el valor de b: "
+   Lea b
+   aux <- a
+   a <- b
+   b <- aux
+   Escriba "Los valores intercambiados son:"
+   Escriba "a = ", a
+   Escriba "b = ", b
+Fin

@@ -1,0 +1,13 @@
+Real radio, area
+
+Inicio
+   Escriba "Ingrese el radio del círculo: "
+   Lea radio
+
+   Si radio > 0 Entonces
+   area <- 3.1416 * radio * radio
+   Escriba "El área del círculo es: ", area
+   Sino
+   Escriba "Error: el radio debe ser mayor que cero"
+ fin si
+Fin
