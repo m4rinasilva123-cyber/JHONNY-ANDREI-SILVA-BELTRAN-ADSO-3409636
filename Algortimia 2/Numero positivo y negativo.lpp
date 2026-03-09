@@ -1,0 +1,18 @@
+real numero
+
+Inicio
+
+    Escriba "Ingrese un número:"
+    Lea numero
+
+    Si numero > 0 Entonces
+        Escriba "El número es POSITIVO"
+    Sino
+        Si numero < 0 Entonces
+            Escriba "El número es NEGATIVO"
+        Sino
+            Escriba "El número es CERO"
+        Fin si
+    Fin si
+
+Fin

@@ -1,0 +1,28 @@
+real horas, tarifa, horasNormales, horasExtras
+real pagoNormales, valorHoraExtra, pagoExtras, total
+
+inicio
+    escriba "Ingrese horas trabajadas: "
+    lea horas
+    
+    escriba "Ingrese tarifa por hora: "
+    lea tarifa
+    
+    si (horas > 40) entonces
+        horasNormales <- 40
+        horasExtras <- horas - 40
+    sino
+        horasNormales <- horas
+        horasExtras <- 0
+    fin si
+    
+    pagoNormales <- horasNormales * tarifa
+    valorHoraExtra <- tarifa * 1.5
+    pagoExtras <- horasExtras * valorHoraExtra
+    
+    total <- pagoNormales + pagoExtras
+    
+    escriba "Pago por horas normales: ", pagoNormales
+    escriba "Pago por horas extras: ", pagoExtras
+    escriba "Total a pagar: ", total
+fin

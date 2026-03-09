@@ -1,0 +1,16 @@
+real totalCompra, descuento, totalPagar
+
+inicio
+    escriba "Ingrese el total de la compra: "
+    lea totalCompra
+
+    si (totalCompra > 1000) entonces
+        descuento <- totalCompra * 0.10
+    sino
+        descuento <- 0
+    fin si
+
+    totalPagar <- totalCompra - descuento
+
+    escriba "Total a pagar: ", totalPagar
+fin

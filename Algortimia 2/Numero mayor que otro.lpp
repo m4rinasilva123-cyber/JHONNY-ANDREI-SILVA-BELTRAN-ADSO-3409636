@@ -1,0 +1,19 @@
+Entero numero1, numero2
+
+inicio
+    escriba "Numero1: "
+    lea numero1
+    
+    escriba "Numero2: "
+    lea numero2
+    
+    si (numero1 = numero2) entonces
+        escriba "Los numeros son iguales"
+    sino
+        si (numero1 > numero2) entonces
+            escriba "El numero mayor es ", numero1
+        sino
+            escriba "El numero mayor es ", numero2
+        fin si
+    fin si
+fin

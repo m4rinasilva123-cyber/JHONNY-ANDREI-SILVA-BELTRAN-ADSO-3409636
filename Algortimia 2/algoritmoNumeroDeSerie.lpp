@@ -1,0 +1,16 @@
+entero numeroSerie
+
+inicio
+    escriba "Ingrese el numero de serie: "
+    lea numeroSerie
+    
+    si ((numeroSerie >= 1468 y numeroSerie <= 1568) o 
+        (numeroSerie >= 7000 y numeroSerie <= 7999) o 
+        (numeroSerie >= 8883 y numeroSerie <= 9001)) entonces
+        
+        escriba "El producto ES defectuoso"
+        
+    sino
+        escriba "El producto NO es defectuoso"
+    fin si
+fin
